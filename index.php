@@ -20,15 +20,15 @@ echo "<h2> Son las $time </h2> <br/>";
 </head>
 
 <script>
-    let comerKebab = () => Math.random() >= 0.1 ;
+    let comerKebab = () => Math.random() >= 0.5 ; // aqui la probabilidad meu
     comerKebab(); // true
 
     function alertaKebab() {
     if(comerKebab()==true) {
-       alert(<?php echo KEBABTELEFONO; ?>);
+       <?php echo "<a href> ".KEBABTELEFONO ?>;
     }
     else {
-       alert("Hoy no toca kebab");
+       <?php echo "Hoxe non toca" ?>;
     }
     }
 </script>
