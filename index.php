@@ -23,12 +23,12 @@ echo "<h2> Son las $time </h2> <br/>";
     let comerKebab = () => Math.random() >= 0.5 ; // aqui la probabilidad meu
     comerKebab(); // true
 
-    function alertaKebab() {
+ function alertaKebab() {
     if(comerKebab()==true) {
-       <?php echo "<a href> ".KEBABTELEFONO ?>;
+       alert(<?php echo KEBABTELEFONO; ?>);
     }
     else {
-       <?php echo "Hoxe non toca" ?>;
+       alert("Hoxe non toca kebab meu");
     }
     }
 </script>
