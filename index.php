@@ -29,8 +29,8 @@ echo "<h2> Son las $time </h2> <br/>";
 
 
     function alertaKebab() {
-         if(hora < "20:00" && hora > "23:00") {
-            mensaje.innerHTML = 'Es moi cedo para pensar en kebabs neno'
+         if(hora <= "20:00" || hora >= "23:30") {
+            mensaje.innerHTML = 'Estas a pensar en kebabs a estas horas neno?'
         }
         else if (comerKebab() == true)  {
             mensaje.innerHTML = '<a href="tel:+34623390199"> 623 390 199 </a>'
